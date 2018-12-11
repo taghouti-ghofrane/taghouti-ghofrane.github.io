@@ -1,0 +1,33 @@
+---
+title: "Contrôle des prix des produits primaires sur le territoire Tunisien"
+output: html_document
+---
+
+<style> 
+  #header { 
+    color: DodgerBlue;
+    text-align: center;
+  }
+
+  h3 {
+    color: DodgerBlue;
+    Font-Weight: Bold;
+  }
+</style>
+
+### Description
+c'est une interface interactive qui affiche les prix par gouvernorat et des statistiques informatives.
+<br>Téléchrager la base suivante [base](files/base.csv) </br>
+
+
+
+
+
+
+### les outils
+
+R, Shiny
+
+
+### Application 
+<iframe src="https://taghoutighofrane.shinyapps.io/prix/" height="650" width="120%" frameBorder="0"></iframe>

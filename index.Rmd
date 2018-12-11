@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  </style>
+</head>
+<body>
+
+
+
+<!-- First Container -->
+
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Taghouti Ghofrane</h3>
+  
+  <img src="images/ghofraneg.jpg"  class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h3>Je suis Taghouti Ghofrane ,  étudiante en 3eme annee ingénierie en statistiques et analyse de l'information à l'école supérieure de la statiques et de l'analyse de l'information de Tunis. 
+</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">Mes intérêts</h3>
+  <p>Je suis intéressée par la modélisation statistique et la visualisation de données ainsi le développement mobile.  j'utilise tous les jours R, Python et Spark. 
+
+</p>
+  <a href="#" class="btn btn-default btn-lg">
+    <span class="glyphicon glyphicon-search"></span> Search
+  </a>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p> Vos réactions, commentaires et questions sont  les bienvenus.</p> 
+</footer>
+
+</body>
+</html>

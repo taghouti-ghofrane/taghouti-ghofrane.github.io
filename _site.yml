@@ -1,0 +1,31 @@
+
+navbar:
+  title: "Taghouti Ghofrane"
+  left:
+    - text: "Chômage en Tunisie"
+      href: mon_projetghofrane.html
+    
+    - text: "Datamining"
+      href: textm.html
+      
+    - text: "CV"
+      href: cv.html
+         
+    - text: "Mes applications Shiny"
+      href: shiny.html
+    
+      
+  
+  right:
+  
+    - icon: fa-github fa-lg
+      href: https://github.com/taghouti-ghofrane
+  
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/taghouti-ghofrane-910b60157/
+output:
+ html_document:
+    highlight: textmate
+   
+    
+  
